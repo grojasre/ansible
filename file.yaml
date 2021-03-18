@@ -7,7 +7,7 @@
   tasks:
     - name: Create a directory
       file:
-        path: /home/user/myfolder
+        path: /home/grojas/myfolder
         state: directory
         owner: grojas
         group: grojas
