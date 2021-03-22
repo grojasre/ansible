@@ -1,0 +1,13 @@
+---
+
+- name: Run file commands
+  gather_facts: false
+  hosts: all
+
+  tasks:
+    - name: Create a directory
+      file:
+        path: /home/grojas/myfolder2
+        state: directory
+        owner: grojas
+        group: grojas
