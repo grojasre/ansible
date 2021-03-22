@@ -11,3 +11,9 @@
         state: directory
         owner: grojas
         group: grojas
+
+    - name: Create a directory
+      file:
+        shell: 'touch sample-template.txt'
+        args:
+          chdir: /home/grojas/myfolder2
